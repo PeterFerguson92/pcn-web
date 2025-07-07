@@ -4,10 +4,9 @@
       <div class="item" *ngFor="let testimonial of testimonials">
         <div class="testimonial_content">
           <figure>
-            <img [src]="testimonial.image" [alt]="testimonial.name" />
+            <img [src]="testimonial.image"  />
           </figure>
           <p>{{ testimonial.text }}</p>
-          <a href="#">{{ testimonial.name }}</a>
         </div>
       </div>
     </div>

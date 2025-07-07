@@ -4,17 +4,23 @@
       <div class="church_heading align_left">
         <h3>About Us</h3>
         <p>
-          There are countless threats to the unity of the body (Colossians 3:6–9).
-          Paul knows that brothers and sisters. There are countless threats to the unity of the body.
+          Potter’s Community Network is a Global Community with a vision of
+          taking God’s divine love and presence to the nations of the world and
+          to demonstrate the character of the Holy Spirit.
         </p>
       </div>
 
       <div class="church_our_services">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let service of services">
+          <div
+            class="col-md-6 col-sm-6 col-xs-12"
+            *ngFor="let service of services"
+          >
             <div class="our_services_col">
               <span [class]="service.icon"></span>
-              <h5><a href="#">{{ service.title }}</a></h5>
+              <h5>
+                <a href="#">{{ service.title }}</a>
+              </h5>
             </div>
           </div>
         </div>

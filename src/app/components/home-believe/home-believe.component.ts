@@ -23,26 +23,8 @@ export class HomeBelieveComponent {
   testimonials = [
     {
       message:
-        'Suspendisse bibendum egestas tellus et rhoncus. Pellentesque et sodales magna...',
+        '“But whenever anyone turns to the Lord, the veil is taken away. Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom. And we all, who with unveiled faces contemplate the Lord’s glory, are being transformed into his image with ever-increasing glory, which comes from the Lord, who is the Spirit”. (2 Corinthians 3:16-18)',
       author: 'Jay Sean',
-    },
-    {
-      message:
-        'Pellentesque laoreet urna ut erat mollis, eu maximus mauris ultrices...',
-      author: 'Jay Sean',
-    },
-    {
-      message: 'Curabitur quis tincidunt mauris, ac pretium ligula...',
-      author: 'Jay Sean',
-    },
-    {
-      message:
-        'Aliquam quis arcu iaculis, aliquet ante quis, porttitor mauris...',
-      author: 'Jay Sean',
-    },
-    {
-      message: 'Proin dictum sodales nisi, nec lobortis enim bibendum id...',
-      author: 'Jay Sean',
-    },
+    }
   ];
 }

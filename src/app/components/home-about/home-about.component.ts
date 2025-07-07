@@ -10,9 +10,9 @@ import { Component } from '@angular/core';
 })
 export class HomeAboutComponent {
   services = [
-    { icon: 'icon-building', title: 'Daily Prayer' },
-    { icon: 'icon-building', title: 'Daily Prayer' },
-    { icon: 'icon-silhouette', title: 'Daily Prayer' },
-    { icon: 'icon-christmas', title: 'Daily Prayer' },
+    { icon: 'icon-building', title: 'Morning Devotion' },
+    { icon: 'icon-building', title: 'Wednesday Bible Study' },
+    { icon: 'icon-silhouette', title: 'Saturday Intercession Prayers' },
+    { icon: 'icon-christmas', title: 'Sunday Fellowship' },
   ];
 }
