@@ -1,0 +1,35 @@
+<section class="bg_none">
+  <div class="church_causes">
+    <div class="container">
+      <div class="church_heading align_center">
+        <h3>Our Causes</h3>
+        <span><sup class="icon-cross"></sup></span>
+      </div>
+
+      <div class="row">
+        <div
+          class="col-md-4 col-sm-6 col-xs-12"
+          *ngFor="let cause of causes; let i = index"
+          [ngClass]="{ 'border-left-right': i === 1 }"
+        >
+          <div class="church_causes_post hover_effect_02">
+            <figure>
+              <img [src]="cause.image" [alt]="cause.title" />
+              <div class="simple_effect">
+                <a [href]="cause.link" target="_blank">
+                  <i class="fa fa-expand" aria-hidden="true"></i>
+                </a>
+              </div>
+            </figure>
+            <div class="church_causes_content">
+              <span>{{ cause.tagline }}</span>
+              <h4><a [routerLink]="cause.route">{{ cause.title }}</a></h4>
+              <p>{{ cause.description }}</p>
+              <a [routerLink]="cause.route" class="">Learn More ...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

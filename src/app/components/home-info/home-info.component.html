@@ -1,0 +1,15 @@
+<div class="church_template_testimonial">
+  <div class="container">
+    <div class="slider_full">
+      <div class="item" *ngFor="let testimonial of testimonials">
+        <div class="testimonial_content">
+          <figure>
+            <img [src]="testimonial.image" [alt]="testimonial.name" />
+          </figure>
+          <p>{{ testimonial.text }}</p>
+          <a href="#">{{ testimonial.name }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

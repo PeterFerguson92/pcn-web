@@ -1,0 +1,27 @@
+<section class="church_soft_services bg_none">
+  <div class="container">
+    <div class="church_heading align_center">
+      <h3>Our Ministry</h3>
+      <span><sup class="icon-cross"></sup></span>
+    </div>
+
+    <div class="row">
+      <div
+        class="col-md-4 col-sm-6 col-xs-12"
+        *ngFor="let ministry of ministries"
+      >
+        <div class="soft_column">
+          <figure>
+            <img [src]="ministry.image" [alt]="ministry.title" />
+            <div class="soft_column_caption">
+              <h4>{{ ministry.title }}</h4>
+              <p>{{ ministry.description }}</p>
+              <a [routerLink]="ministry.link" class="default_small_btn theme-bg_btn">Read More</a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

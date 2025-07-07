@@ -1,0 +1,16 @@
+<section class="church_testimonial_02">
+  <div class="container">
+    <div class="church_heading align_center white-color">
+    </div>
+
+
+
+    <div class="church_testimonial_slider">
+      <div class="testimonial_item" *ngFor="let testimonial of testimonials">
+        <p>{{ testimonial.message }}</p>
+        <span>- {{ testimonial.author }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
