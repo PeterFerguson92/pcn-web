@@ -1,11 +1,11 @@
 /*============	Media Between Start ============ */
 @media screen and (min-width: 1367px) and (max-width: 1680px) {
-	
+
 
 }
 
 /*============	Media Between Start ============ */
-@media screen and (min-width: 1199px) and (max-width: 1366px)  {	
+@media screen and (min-width: 1199px) and (max-width: 1366px)  {
 	.church_music_book .church_blog_content h4{
 		margin-bottom:19px;
 	}
@@ -49,7 +49,7 @@
 		margin: -45px auto 0;
 		width: 50%;
 	}
-	
+
 	.soft_column h4{
 		font-size: 20px;
 	}
@@ -144,7 +144,7 @@
 		left: -13px;
 		width: 210px;
 	}
-	.church_container_version2 .audioplayer .controls .pause::before, 
+	.church_container_version2 .audioplayer .controls .pause::before,
 	.church_container_version2 .audioplayer .controls .play::before{
 		-moz-transform: scale(0.7);
 		-webkit-transform: scale(0.7);
@@ -322,11 +322,11 @@
 	div.church_videoplayer_listing div.church_videoplay{
 		padding: 246px 0;
 	}
-	
-}
-/*============	Media 991Px Start ============ */ 
 
-@media (max-width: 991px) {	
+}
+/*============	Media 991Px Start ============ */
+
+@media (max-width: 991px) {
 	.listing_picture_news,
 	.church_navigation,
 	.church_banner .nav-arrows a,
@@ -620,9 +620,9 @@
 	div.church_music_book div.caption p{
 		margin-bottom: 80px;
 	}
-	.church_causes2_caption{
-		
-	}
+	/* .church_causes2_caption{
+
+	} */
 	.church_service_post_fig.no-padding{
 		margin-bottom: 10px;
 	}
@@ -707,17 +707,17 @@
 	.banner_slide.slick-slide.slick-current.slick-active > img{
 		height: 215px;
 	}
-	
+
 }
 
-/*============	Media 768Px Start ============ */ 
+/*============	Media 768Px Start ============ */
 @media (min-width: 768px) and (max-width: 991px) {
-	
+
 }
 
 /*============ Media 767Px Start ============ */
 @media (max-width: 767px) {
-	
+
 	div.listing_picture_news,
 	.church_testimonial_nav,
 	.church_progress_menu.container,
@@ -808,12 +808,12 @@
 		padding: 15px;
 	}
 
-	.church_login_services li a, 
-	.language_changer .selectric .label, 
+	.church_login_services li a,
+	.language_changer .selectric .label,
 	.church_accounts_language li a{
 		font-size: 12px;
 	}
-	.church_login_services li, 
+	.church_login_services li,
 	.church_accounts_language > li{
 		margin-right: 8px;
 		padding-right: 0px;
@@ -838,7 +838,7 @@
 		padding-top: 0px;
 		margin-right: 0px;
 	}
-	.header_version_3 .church_login_services, 
+	.header_version_3 .church_login_services,
 	.header_version_3 .church_accounts_language{
 		padding-top: 0px;
 	}
@@ -862,7 +862,7 @@
 		padding:80px 0px;
 	}
 	.soft_column .soft_column_caption a{
-		
+
 	}
 	.church_blog_columns .ch_position-up{
 		width: 100%;
@@ -950,7 +950,7 @@
 	div.slider_thumbnail_items div.item:hover img{
 		transform: none;
 	}
-	
+
 	div.church_thumbnail_slider_wraper{
 		height: 246px;
 	}
@@ -1029,8 +1029,8 @@
 	div.right_side-content div.ministry_content,
 	div.ministry_column div.left_side-content figure img{
 		width: 100%;
-	}.
-	div.ministry_column div.ministry_content{
+	}
+  	div.ministry_column div.ministry_content{
 		float: left;
 		width: 100%;
 		padding: 0px;
@@ -1078,7 +1078,7 @@
 	div.church_music_book div.church_blog_content h4 a{
 		font-size: 24px;
 	}
-	
+
 	.audioplayer.style_audio_2{
 		display: none;
 	}
@@ -1249,7 +1249,7 @@
 	.soft_column h4{
 		font-size: 18px;
 	}
-	
+
 
 }
 /*============ Media 360Px Star ============ */

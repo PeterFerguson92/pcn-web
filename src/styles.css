@@ -1,11 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 /*==================================================
-
 	Project: Template church
 	Version: 1.0
 	Last change: 6/23/17
 	Author : Kodeforest
-
 	/**
 	* Table of Contents :
 	* 1.0 - HEADER VERSION DEFAULT
@@ -82,28 +80,21 @@
 	* 66.0 - CHURCH music book
 	* 67.0 - SERMON PAGE
 
-
 	[Color codes]
-
 	Background: #f8f8f8 (light white)
 	Content: #ccc ( black)
 	Header h1: #444 (dark black)
 	Header h2: #444 (dark black)
 	Footer:  #fff (dark black)
-
 	a (standard): #444 (light black)
 	a (visited): #444 (light black)
 	a (active): #444 (light black)
-
 	[Typography]
-
 	Body copy:  15px/ "Open Sans",sans-serif
 	Headers:  "Open Sans",sans-serif
 	Input, textarea: "Open Sans",sans-serif
 	Sidebar heading: "Open Sans",sans-serif
-
 ==================================================*/
-
 .wrapper{
 	float: left;
 	width: 100%;
@@ -607,7 +598,6 @@ header{
 ===============================
     MUSICPLAYER HEADER ENDS
 ===============================*/
-
 /*
 ======================================================
     SOCIAL ICONS STARTS
@@ -643,7 +633,6 @@ header{
 ======================================================
     SOCIAL ICONS ENDS
 =======================================================*/
-
 /*
 ======================================================
     NAVIGAION
@@ -653,7 +642,6 @@ header{
 	float: left;
 	width: 100%;
 }
-
 .church_social-menu ul{
 	margin-bottom: 0px;
 }
@@ -712,7 +700,6 @@ header{
 	background: transparent !important;
 }
 .navigation ul li ul.sub-menu > li:hover{
-
 }
 .navigation ul li ul.children > li > a:before,
 .navigation ul li ul.sub-menu > li > a:before{
@@ -722,7 +709,6 @@ header{
 ======================================================
     NAVIGAION ENDS
 =======================================================*/
-
 /*
 ======================================================
    CART BUYING ITEMS
@@ -882,7 +868,6 @@ header{
 }
 .header_version_2 .navigation ul li ul.children li:hover > a,
 .header_version_2 .navigation ul li ul.sub-menu li:hover > a{
-
 }
 .header_version_2 .navigation ul li ul.children li a,
 .header_version_2 .navigation ul li ul.sub-menu li a{
@@ -1137,7 +1122,6 @@ header{
 ======================================================
   		CHURCH HEADER VERSION 3.0 ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH HEADER VERSION 4.0
@@ -1156,7 +1140,6 @@ header{
 ======================================================
   		CHURCH HEADER VERSION 3.0 ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH HEADER VERSION 5.0
@@ -1164,7 +1147,6 @@ header{
 .church_version-5{
 	float: left;
 	width: 100%;
-
 }
 .header_version_5{
 	z-index: 11;
@@ -1213,12 +1195,10 @@ header{
 .church_version-5 .church_navigation nav ul li:last-child{
 	margin-right: 0px;
 }
-
 /*
 ======================================================
   		CHURCH HEADER VERSION 5.0 ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH VERSION HEADER 6.0
@@ -1256,7 +1236,6 @@ header{
 .banner .slider-version3.default_arrows .slick-arrow{
 	margin: 0 0 -181px;
 }
-
 .church_version-7{
 	float: left;
 	width: 100%;
@@ -1266,7 +1245,6 @@ header{
   		CHURCH VERSION HEADER 6.0 ends
 =====================================================
 */
-
 
 /*
 ======================================================
@@ -1288,7 +1266,6 @@ header{
 	z-index: 1;
 }
 .sab_banner_wrap .sub_slider {
-
 }
 .sab_banner_wrap .slick-slider .slick-list{
 	z-index: -1;
@@ -1346,7 +1323,6 @@ ul.slick-dots{
     position: absolute;
     right: 0;
     width: 85px;
-
 }
 .slick-dots:after{
     bottom: 0;
@@ -1469,7 +1445,6 @@ ul.slick-dots{
 	font-size: 18px;
 	margin-bottom: 0px;
 }
-
 .banner_title_1{
 	font-size: 45px;
 	font-weight: bold;
@@ -1546,7 +1521,6 @@ ul.slick-dots{
   		BANNER VERSION DEFAULT ENDS
 =======================================================*/
 
-
 /*
 ======================================================
   		BANNER VERSION 2
@@ -1590,7 +1564,6 @@ ul.slick-dots{
 	font-weight: bold;
 	font-family: 'Zilla Slab', serif;
 }
-
 /*
 ======================================================
   	count down timer
@@ -1740,7 +1713,6 @@ ul.slick-dots{
 ======================================================
   		CHURCH BANNER VERSION 2 ENDS
 =======================================================*/
-
 /*
 ======================================================
   		BANNER VERSION 3
@@ -1943,7 +1915,6 @@ ul.slick-dots{
 ======================================================
   		CHURCH BANNER VERSION 3 ENDS
 =======================================================*/
-
 .church_soft_services{
 	padding:80px 0px 46px;
 }
@@ -1981,12 +1952,10 @@ ul.slick-dots{
   	ABOUT US SECTION ENDS
 =======================================================*/
 
-
 /*
 ======================================================
   	CONTENT STARTS
 =======================================================*/
-
 /*
 ======================================================
   	OUR SERVICES
@@ -2039,16 +2008,13 @@ ul.slick-dots{
 	display: inline-block;
 	width: 100%;
 }
-
 /*
 =========================
   	OUR SERVICES ENDS
 =========================*/
 /*
 ======================================================
-
 =======================================================*/
-
 /*
 ======================================================
   	SOFT SERVICES COLUMNS
@@ -2164,12 +2130,10 @@ ul.slick-dots{
 	top:auto;
 	bottom: 50%;
 }
-
 /*
 ======================================================
   	SOFT SERVICES COLUMNS ENDS
 =======================================================*/
-
 /*
 ======================================================
   	VIDEO PLAY SECTION
@@ -2372,7 +2336,7 @@ ul.slick-dots{
 	width: 50%;
 	text-align: center;
 	margin: -250px 0 0;
-	left: 0px
+	left: 0px;
 	right:0px;
 	top:50%;
 }
@@ -2390,7 +2354,6 @@ ul.slick-dots{
 ======================================================
   	VIDEO PLAY SECTION ENDS
 =======================================================*/
-
 /*
 ======================================================
   	CAUSES SECTION
@@ -2464,7 +2427,6 @@ ul.slick-dots{
 ======================================================
   	CAUSES SECTION ENDS
 =======================================================*/
-
 
 /*
 ======================================================
@@ -2649,7 +2611,6 @@ ul.slick-dots{
 ======================================================
   	OUR TEAM SECTION ends
 =======================================================*/
-
 /*
 ======================================================
   	TESTIMONIAL SECTION
@@ -2722,12 +2683,10 @@ ul.slick-dots{
 	color:#333;
 	font-family: 'Zilla Slab', serif;
 }
-
 /*
 ======================================================
   	TESTIMONIAL SECTION ENDS
 =======================================================*/
-
 
 /*
 ======================================================
@@ -2870,7 +2829,6 @@ ul.slick-dots{
 ======================================================
   	LASTEST BLOG POST ENDS
 =======================================================*/
-
 /*
 ======================================================
   	SLIDER IMAGES INSTAGRAM
@@ -2926,7 +2884,6 @@ ul.slick-dots{
 ======================================================
   	SLIDER IMAGES INSTAGRAM ENDS
 =======================================================*/
-
 /*
 ======================================================
   	CHURCH FOOTER CONTENT STARTS
@@ -3140,7 +3097,6 @@ footer .footer-post-content a{
 ======================================================
   	CHURCH FOOTER CONTENT ENDS
 =======================================================*/
-
 /*
 ======================================================
   	SERVICES ICONS STARTS
@@ -3212,7 +3168,6 @@ footer .footer-post-content a{
 ======================================================
   	SERVICES ICONS ENDS
 =======================================================*/
-
 
 /*
 ======================================================
@@ -3291,7 +3246,6 @@ footer .footer-post-content a{
 ======================================================
   	POST EASTER ENDS
 =======================================================*/
-
 /*
 ======================================================
   	LISTING BLOG STARTS
@@ -3329,7 +3283,6 @@ footer .footer-post-content a{
 	float: left;
 	width: 36%;
 }
-
 .church_listing_block .church_date{
 	position: absolute;
 	top:0px;
@@ -3427,7 +3380,6 @@ footer .footer-post-content a{
   	LISTING BLOG ENDS
 =======================================================*/
 
-
 /*
 ======================================================
   	CHURCH HELPING STARTS
@@ -3517,7 +3469,6 @@ footer .footer-post-content a{
 ======================================================
   	CHURCH HELPING ENDS
 =======================================================*/
-
 /*
 ======================================================
   	CHURCH BLOG CONTENT STARTS
@@ -3621,7 +3572,6 @@ footer .footer-post-content a{
   	CHURCH BLOG CONTENT ENDS
 =======================================================*/
 
-
 /*
 ======================================================
   	WEEKLY GROUPS CONTENT STARTS
@@ -3706,7 +3656,6 @@ footer .footer-post-content a{
 ======================================================
   	WEEKLY GROUPS CONTENT ENDS
 =======================================================*/
-
 /*
 ======================================================
   	CHURCH PLAYING CONTENT STARTS
@@ -3803,7 +3752,6 @@ footer .footer-post-content a{
 ======================================================
   	CHURCH PLAYING CONTENT ENDS
 =======================================================*/
-
 /*
 ======================================================
   	CHURCH PASTORS CONTENT STARTS
@@ -3868,7 +3816,6 @@ footer .footer-post-content a{
 ======================================================
   	CHURCH PASTORS CONTENT ENDS
 =======================================================*/
-
 /*
 ======================================================
   	CHURCH TESTIMONIAL CONTENT STARTS
@@ -3947,7 +3894,7 @@ footer .footer-post-content a{
 	padding: 0px;
 	border:1px solid transparent;
 }
-.slick-dots li.slick-active button,{
+.slick-dots li.slick-active button{
 	border-color: transparent;
 }
 .church_testimonial_slider .slick-list{
@@ -3957,7 +3904,6 @@ footer .footer-post-content a{
 ======================================================
   	CHURCH TESTIMONIAL CONTENT ENDS
 =======================================================*/
-
 
 /*
 ======================================================
@@ -4035,7 +3981,6 @@ footer .footer-post-content a{
   	CHURCH OUR SHOP CONTENT ENDS
 =======================================================
 */
-
 /*
 ======================================================
   	CH PRODUCT WRAP START
@@ -4198,7 +4143,6 @@ footer .footer-post-content a{
 ======================================================
   	CHURCH PRAYER BLOCK CONTENT ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH LATEST EVENTS
@@ -4225,7 +4169,6 @@ footer .footer-post-content a{
 ======================================================
   		CHURCH LATEST EVENTS ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH SERVICES
@@ -4251,9 +4194,9 @@ footer .footer-post-content a{
 	font-size: 40px;
 	margin-right: 20px;
 }
-.open_services:hover span{
-	border-color:;
-}
+/* .open_services:hover span{
+	//border-color:;
+} */
 .open_services_content{
 	float: none;
 	width: auto;
@@ -4267,12 +4210,10 @@ footer .footer-post-content a{
 	margin-bottom: 0px;
 	color:#555;
 }
-
 /*
 ======================================================
   		CHURCH SERVICES ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH BLOG COLUMNS
@@ -4348,7 +4289,6 @@ footer .footer-post-content a{
 ======================================================
   		CHURCH BLOG COLUMNS ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH BLOG SIMPLE
@@ -4387,7 +4327,6 @@ footer .footer-post-content a{
 ======================================================
   		CHURCH BLOG SIMPLE ENDS
 =======================================================*/
-
 /*
 ======================================================
   		TRIANGLE SERVICES FULL WIDTH
@@ -4443,7 +4382,6 @@ footer .footer-post-content a{
 ======================================================
   		TRIANGLE SERVICES FULL WIDTH ENDS
 =======================================================*/
-
 /*
 ======================================================
   		404 PAGE
@@ -4521,7 +4459,6 @@ footer .footer-post-content a{
 ======================================================
   		404 PAGE  ENDS
 =======================================================*/
-
 /*
 ======================================================
   		COMING SOON PAGE
@@ -4650,7 +4587,6 @@ footer .footer-post-content a{
 ======================================================
   		COMING SOON PAGE ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH CAPTION WRAP START
@@ -4693,7 +4629,6 @@ footer .footer-post-content a{
 ======================================================
   		CHURCH CAPTION WRAP ENDS
 =======================================================*/
-
 
 /*
 ======================================================
@@ -4831,7 +4766,6 @@ section.church_service_post{
 ======================================================
   		CHURCH BLOG MEDIUM WRAP END
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH LATEST WRAP START
@@ -4907,7 +4841,6 @@ section.church_service_post{
 ======================================================
   		CHURCH LATEST WRAP END
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH NEWS WRAP START
@@ -4955,7 +4888,6 @@ section.church_service_post{
   		CHURCH NEWS WRAP ENDS
 =======================================================*/
 
-
 /*
 ======================================================
   		CHURCH CAUSES WRAP START
@@ -4996,7 +4928,7 @@ section.church_service_post{
 	color:transparent;
 }
 .church_causes_fig  .progress-bar div span:before{
-	background-image: url(assets/"extra-images/cause.png");
+	background-image: url("assets/extra-images/cause.png");
     background-repeat: no-repeat;
     border-radius: 100%;
     bottom: -7px;
@@ -5094,7 +5026,7 @@ section.church_service_post{
 }
 .church_postor_wrap{
 	animation: 10s linear 0s normal none infinite running ridingon;
-	background: rgba(0, 0, 0, 0) url(assets/"images/postar_bg.png") repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) url("assets/images/postar_bg.png") repeat scroll 0 0;
 }
 	@-webkit-keyframes ridingon{
 	  0%{background-position:50% 0}
@@ -5112,7 +5044,6 @@ section.church_service_post{
 	  0%{background-position:50% 0}
 	  100%{background-position:330px 0%}
 	}
-
 .church_postor_wrap.overlay:before{
 	opacity:0.7;
 }
@@ -5124,7 +5055,7 @@ section.church_service_post{
 .church_postor_fig{
 	position:relative;
 	z-index:99;
-	background-image:url(assets/"images/postar_mandar.png");
+	background-image:url("assets/images/postar_mandar.png");
 	background-position:right;
 	background-repeat:no-repeat;
 }
@@ -5153,7 +5084,6 @@ section.church_service_post{
 ======================================================
   		CHURCH POSTAR WRAP END
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH BLOG POST WRAP START
@@ -5225,14 +5155,11 @@ section.church_service_post{
 }
 .post_img_list ul li{
 	float:left;
-	width:
 }
-
 /*
 ======================================================
   		CHURCH BLOG POST WRAP END
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH PRAYER BLOCK HEIGHT START
@@ -5255,17 +5182,13 @@ section.church_service_post{
 ======================================================
   		CHURCH PRAYER BLOCK HEIGHT END
 =======================================================*/
-
 .copyright-content.center{
 	text-align:center;
 }
-
 /*
 ====================================================================================
 						BLOG DETAIL PAGE START
 ====================================================================================*/
-
-
 
 /*
 ======================================================
@@ -5353,7 +5276,6 @@ section.church_service_post{
 	display: block;
 	font-size: 14px;
 	color:#333;
-
 	margin-bottom: 3px;
 }
 .donars_right li span{
@@ -5496,7 +5418,6 @@ section.church_service_post{
 ======================================================
   		LOGIN REGISTOR BUTTONS ENDS
 =======================================================*/
-
 /*
 ======================================================
   		INPUT FELIDS
@@ -5835,7 +5756,6 @@ section.church_service_post{
 .churech_author.comment:hover a{
 	background-color:#f1f1f1;
 }
-
 .post-margin{
 	float: left;
 	width: 100%;
@@ -5902,7 +5822,6 @@ section.church_service_post{
 .church_blog_detail_text .slick-dots{
 	display:none !important;
 }
-
 /*
 ======================================================
   		CHURECH BLOG DETAIL Ends
@@ -5983,7 +5902,6 @@ section.church_service_post{
 .content_contact_us .ch_textarea{
 	margin-bottom: 40px;
 }
-
 .content_contact_us .form_submit{
 	float: none;
 	display: inline-block;
@@ -5992,7 +5910,6 @@ section.church_service_post{
 ======================================================
   		CHURECH CONTACT US PAGE ENDS
 =======================================================*/
-
 
 /*
 ======================================================
@@ -6071,7 +5988,6 @@ section.church_service_post{
 ======================================================
   		CHURECH MINISTRY PAGE ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURECH MINISTRY COLUMNS
@@ -6103,7 +6019,6 @@ section.church_service_post{
 ======================================================
   		CHURECH MINISTRY COLUMNS ENDS
 =======================================================*/
-
 /*
 ======================================================
   		CHURCH Causes
@@ -6177,7 +6092,6 @@ section.church_service_post{
 	width: 100%;
 	padding: 27px 20px 0;
 }
-
 .church_causes_columns .church_blog_content p{
 	margin-bottom: 24px;
 }
@@ -6321,7 +6235,6 @@ section.church_service_post{
 	color:#b2b2b2;
 	background: transparent;
 }
-
 .style_audio_2.audioplayer .controls .pause,
 .style_audio_2.audioplayer .controls .play{
 	background-size: cover;
@@ -6380,7 +6293,6 @@ section.church_service_post{
 	width: 100%;
 	padding: 30px;
 }
-
 .social_icons_simple{
 	float: left;
 	width: 100%;
@@ -6616,7 +6528,7 @@ section.church_service_post{
 }
 .other_information ul li span{
 	display: inline-block;
-	float: left;
+	/* float: lefnt; */
 	width: 100%;
 	font-size: 14px;
 	color:#555;
@@ -6692,7 +6604,6 @@ section.church_service_post{
 .church_testimonial_02 .church_testimonial_slider .slick-dots{
 	display:none !important;
 }
-
 /* hover scale effect */
 .footer_blog_post:hover  figure img,
 .church_blog_detail_text:hover figure img,
