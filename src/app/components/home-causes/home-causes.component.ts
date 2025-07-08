@@ -17,8 +17,8 @@ export class HomeCausesComponent {
       tagline: 'In God, Hope',
       description:
         'Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros...',
-      link: '#',
-      route: '/causes/children',
+      link: '',
+      route: '',
     },
     {
       image: 'assets/extra-images/cause_img_01.png',
@@ -26,8 +26,8 @@ export class HomeCausesComponent {
       tagline: 'Faith in Action',
       description:
         'Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor...',
-      link: '#',
-      route: '/causes/food',
+      link: '',
+      route: '',
     },
     {
       image: 'assets/extra-images/cause_img_01.png',
@@ -35,8 +35,8 @@ export class HomeCausesComponent {
       tagline: 'In God, Strength',
       description:
         'Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi...',
-      link: '#',
-      route: '/causes/church',
+      link: '',
+      route: '',
     },
   ];
 }

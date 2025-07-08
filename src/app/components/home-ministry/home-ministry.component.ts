@@ -16,21 +16,21 @@ export class HomeMinistryComponent {
       title: 'Bradford church',
       description:
         'Praesent eget metus ligula. In tempus fermentum dui. Praesent tempus velit facilisis...',
-      link: '/ministries/children',
+      link: '',
     },
     {
       image: 'assets/extra-images/our_soft_col_img02.jpg',
       title: 'MILTON KEYNES PRAYER CLINIC',
       description:
         'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et...',
-      link: '/ministries/youth',
+      link: '',
     },
     {
       image: 'assets/extra-images/our_soft_col_img03.jpg',
       title: 'Intercession Ministry',
       description:
         'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa...',
-      link: '/ministries/worship',
+      link: '',
     },
   ];
 }
