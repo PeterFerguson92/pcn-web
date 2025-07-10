@@ -16,10 +16,10 @@
             class="col-md-6 col-sm-6 col-xs-12"
             *ngFor="let service of services"
           >
-            <div class="our_services_col">
+            <div  [routerLink]="[service.path]" class="our_services_col">
               <span [class]="service.icon"></span>
               <h5>
-                <a href="#">{{ service.title }}</a>
+                <a [routerLink]="[service.path]">{{ service.title }}</a>
               </h5>
             </div>
           </div>
