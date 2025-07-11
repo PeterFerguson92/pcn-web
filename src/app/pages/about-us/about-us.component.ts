@@ -6,7 +6,7 @@ import { AboutUsContentComponent } from '../../components/about-us-content/about
 @Component({
   selector: 'app-about-us',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, AboutUsContentComponent ],
+  imports: [AboutUsContentComponent ],
   templateUrl: './about-us.component.html',
   styleUrl: './about-us.component.css'
 })

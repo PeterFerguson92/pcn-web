@@ -15,22 +15,22 @@ export class HomeMinistryComponent {
       image: 'assets/extra-images/our_soft_col_img01.jpg',
       title: 'Bradford church',
       description:
-        'Praesent eget metus ligula. In tempus fermentum dui. Praesent tempus velit facilisis...',
-      link: '',
+        'oin us every Sunday in Bradford for a time of vibrant worship, uplifting teaching, and meaningful community. All are welcome!',
+      link: '/ministry/1',
     },
     {
       image: 'assets/extra-images/our_soft_col_img02.jpg',
-      title: 'MILTON KEYNES PRAYER CLINIC',
+      title: 'MILTON KEYNES PRAYER CLUB',
       description:
-        'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et...',
-      link: '',
+        'Gather with us monthly in Milton Keynes for a powerful time of prayer, worship, and intercession. All are welcome to stand in the gap!',
+      link: '/ministry/2',
     },
     {
       image: 'assets/extra-images/our_soft_col_img03.jpg',
-      title: 'Intercession Ministry',
+      title: 'GATE KEEPERS - INTERCESSION',
       description:
-        'Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa...',
-      link: '',
+        'Join the Gatekeepers online as we intercede for the church, nations, and communities — standing watch in prayer and unity',
+      link: '/ministry/3',
     },
   ];
 }

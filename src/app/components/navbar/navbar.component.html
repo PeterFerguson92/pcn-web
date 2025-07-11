@@ -31,8 +31,9 @@
           <li class="menu-item">
             <a routerLink="/ministries">Ministries</a>
             <ul class="dl-submenu">
-              <li><a routerLink="/ministries/detail">ministry detail</a></li>
-              <li><a routerLink="/ministries/detail">ministry detail</a></li>
+              <li><a [routerLink]="['/ministry', 1]">Bradford Church</a></li>
+              <li><a [routerLink]="['/ministry', 2]">Milton Keynes Prayer Club</a></li>
+              <li><a [routerLink]="['/ministry', 3]">Gatekeepers - Intercession</a></li>
             </ul>
           </li>
 
@@ -117,12 +118,9 @@
                 <li>
                   <a routerLink="/ministries">Ministries</a>
                   <ul class="children submenu">
-                    <li>
-                      <a routerLink="/ministries/detail">ministry detail 2</a>
-                    </li>
-                    <li>
-                      <a routerLink="/ministries/detail">ministry detail 2</a>
-                    </li>
+                    <li><a [routerLink]="['/ministry', 1]">Bradford Church</a></li>
+                    <li><a [routerLink]="['/ministry', 2]">Milton Keynes Prayer Club</a></li>
+                    <li><a [routerLink]="['/ministry', 3]">Gatekeepers - Intercession</a></li>
                   </ul>
                 </li>
                 <!-- <li>

@@ -1,20 +1,19 @@
 import { CommonModule } from '@angular/common';
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-activity-content',
+  selector: 'app-ministry-content',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './activity-content.component.html',
-  styleUrl: './activity-content.component.css',
+  templateUrl: './ministry-content.component.html',
+  styleUrl: './ministry-content.component.css',
 })
-export class ActivityContentComponent {
-  code!: string;
-  zoomLink =
-    'https://us02web.zoom.us/j/7278238487?pwd=c2grWmM3dm1iYVZ0NWhyQk1SR1NTdz09';
+export class MinistryContentComponent {
+  code: string = '';
 
   constructor(private route: ActivatedRoute, private router: Router) {
+    this.code = '';
     router.events.subscribe((val) => {
       // see also
       if (val instanceof NavigationEnd) {
