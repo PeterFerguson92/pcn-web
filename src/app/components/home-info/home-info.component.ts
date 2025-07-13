@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 export class HomeInfoComponent {
   testimonials = [
     {
-      image: 'assets/extra-images/testimonial_img_01.png',
+      image: 'assets/images/A1-logo.jpg',
       text: 'The word of God will come alive in your spirits as you worship and serve with us. ',
     },
   ];

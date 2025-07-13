@@ -10,9 +10,9 @@
         class="col-md-4 col-sm-6 col-xs-12"
         *ngFor="let ministry of ministries"
       >
-        <div class="soft_column">
+        <div class="soft_column" [routerLink]="ministry.link">
           <figure>
-            <img [src]="ministry.image" [alt]="ministry.title" />
+            <img [src]="ministry.image" height="400" [alt]="ministry.title" />
             <div class="soft_column_caption">
               <h4>{{ ministry.title }}</h4>
               <p>{{ ministry.description }}</p>
