@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MinistryContentComponent } from '../../component/ministry-content/ministry-content.component';
+import { MinistryContentComponent } from '../../components/ministry-content/ministry-content.component';
 
 @Component({
   selector: 'app-ministry',

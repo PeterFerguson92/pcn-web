@@ -20,11 +20,15 @@
             </ul>
           </li>
           <li class="menu-item">
-            <a >Activities</a>
+            <a>Activities</a>
             <ul class="dl-submenu">
               <li><a [routerLink]="['/activity', 1]">Morning Devotion</a></li>
-              <li><a [routerLink]="['/activity', 2]">Wednesday Bible Study</a></li>
-              <li><a [routerLink]="['/activity', 3]">Saturday Intercession</a></li>
+              <li>
+                <a [routerLink]="['/activity', 2]">Wednesday Bible Study</a>
+              </li>
+              <li>
+                <a [routerLink]="['/activity', 3]">Saturday Intercession</a>
+              </li>
               <li><a [routerLink]="['/activity', 4]">Sunday Fellowship</a></li>
             </ul>
           </li>
@@ -32,16 +36,23 @@
             <a routerLink="/ministries">Ministries</a>
             <ul class="dl-submenu">
               <li><a [routerLink]="['/ministry', 1]">Bradford Church</a></li>
-              <li><a [routerLink]="['/ministry', 2]">Milton Keynes Prayer Club</a></li>
-              <li><a [routerLink]="['/ministry', 3]">Gatekeepers - Intercession</a></li>
+              <li>
+                <a [routerLink]="['/ministry', 2]">Milton Keynes Prayer Club</a>
+              </li>
+              <li>
+                <a [routerLink]="['/ministry', 3]"
+                  >Gatekeepers - Intercession</a
+                >
+              </li>
             </ul>
           </li>
 
           <li class="menu-item">
-            <a routerLink="/causes">Causes</a>
+            <a routerLink="/causes">Charity</a>
             <ul class="dl-submenu">
-              <li><a routerLink="/causes-detail">causes detail</a></li>
-              <li><a routerLink="/causes-detail">causes detail</a></li>
+              <li><a [routerLink]="['/charity', 1]">Charity name 1</a></li>
+              <li><a [routerLink]="['/charity', 2]">Charity name 2</a></li>
+              <li><a [routerLink]="['/charity', 3]">Charity name 3</a></li>
             </ul>
           </li>
 
@@ -107,20 +118,42 @@
                   </ul>
                 </li>
                 <li class="menu-item">
-                  <a >Activities</a>
+                  <a>Activities</a>
                   <ul class="children submenu">
-                    <li><a [routerLink]="['/activity', 1]">Morning Devotion</a></li>
-                    <li><a [routerLink]="['/activity', 2]">Wednesday Bible Study</a></li>
-                    <li><a [routerLink]="['/activity', 3]">Saturday Intercession</a></li>
-                    <li><a [routerLink]="['/activity', 4]">Sunday Fellowship</a></li>
+                    <li>
+                      <a [routerLink]="['/activity', 1]">Morning Devotion</a>
+                    </li>
+                    <li>
+                      <a [routerLink]="['/activity', 2]"
+                        >Wednesday Bible Study</a
+                      >
+                    </li>
+                    <li>
+                      <a [routerLink]="['/activity', 3]"
+                        >Saturday Intercession</a
+                      >
+                    </li>
+                    <li>
+                      <a [routerLink]="['/activity', 4]">Sunday Fellowship</a>
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <a routerLink="/ministries">Ministries</a>
                   <ul class="children submenu">
-                    <li><a [routerLink]="['/ministry', 1]">Bradford Church</a></li>
-                    <li><a [routerLink]="['/ministry', 2]">Milton Keynes Prayer Club</a></li>
-                    <li><a [routerLink]="['/ministry', 3]">Gatekeepers - Intercession</a></li>
+                    <li>
+                      <a [routerLink]="['/ministry', 1]">Bradford Church</a>
+                    </li>
+                    <li>
+                      <a [routerLink]="['/ministry', 2]"
+                        >Milton Keynes Prayer Club</a
+                      >
+                    </li>
+                    <li>
+                      <a [routerLink]="['/ministry', 3]"
+                        >Gatekeepers - Intercession</a
+                      >
+                    </li>
                   </ul>
                 </li>
                 <!-- <li>
@@ -133,11 +166,17 @@
                   </ul>
                 </li> -->
                 <li>
-                  <a routerLink="/causes">Causes</a>
+                  <a routerLink="/causes">Charity</a>
                   <ul class="children submenu">
-                    <li><a routerLink="/causes">causes</a></li>
-                    <li><a routerLink="/causes-detail">causes detail 1</a></li>
-                    <li><a routerLink="/causes-detail">causes detail 2</a></li>
+                    <li>
+                      <a [routerLink]="['/charity', 1]">Charity name 1</a>
+                    </li>
+                    <li>
+                      <a [routerLink]="['/charity', 2]">Charity name 2</a>
+                    </li>
+                    <li>
+                      <a [routerLink]="['/charity', 3]">Charity name 3</a>
+                    </li>
                   </ul>
                 </li>
                 <!-- <li>

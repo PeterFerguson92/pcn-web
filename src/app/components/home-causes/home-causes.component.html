@@ -2,7 +2,7 @@
   <div class="church_causes">
     <div class="container">
       <div class="church_heading align_center">
-        <h3>Our Causes</h3>
+        <h3>Our Charity</h3>
         <span><sup class="icon-cross"></sup></span>
       </div>
 
@@ -14,12 +14,8 @@
         >
           <div class="church_causes_post hover_effect_02">
             <figure>
-              <img [src]="cause.image" [alt]="cause.title" />
-              <div class="simple_effect">
-                <a [href]="cause.link" target="_blank">
-                  <i class="fa fa-expand" aria-hidden="true"></i>
-                </a>
-              </div>
+              <img [src]="cause.image"  [routerLink]="cause.route" [alt]="cause.title" />
+
             </figure>
             <div class="church_causes_content">
               <span>{{ cause.tagline }}</span>
