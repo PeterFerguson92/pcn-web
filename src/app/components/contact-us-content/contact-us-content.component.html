@@ -1,0 +1,110 @@
+<div class="contact_us">
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="church_location">
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <div>
+              <h6><a href="#">Office Address</a></h6>
+              <p>
+                MAPA Centre, 1 Coates St.<br />
+                Bradford, BD5 7DL
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="church_location active">
+            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <div>
+              <h6><a href="#">Phone Number</a></h6>
+              <p>
+                <a href="tel:+447376371678">+447376371678</a><br />
+                <a href="tel:+447746181877">+447746181877</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="church_location">
+            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <div>
+              <h6><a href="#">Email Address</a></h6>
+              <p>atthepotterstouch&#64;gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content_contact_us">
+          <h4 class="custom-font-30px">Feel Free! Drop Us a line</h4>
+          <p>
+            If you have any questions or comments, or would just like to say
+            hello,
+          </p>
+          <form [formGroup]="contactForm">
+            <div class="kode-left-comment-sec">
+              <div class="col-md-4">
+                <div class="kf_commet_field">
+                  <input
+                    placeholder="Full Name"
+                    formControlName="name"
+                    name="author"
+                    value=""
+                    data-default="Name*"
+                    size="30"
+                    required=""
+                    type="text"
+                  />
+                </div>
+                <div class="kf_commet_field">
+                  <input
+                    placeholder="Phone number"
+                    formControlName="phone"
+                    name="author"
+                    value=""
+                    data-default="Name*"
+                    size="30"
+                    required=""
+                    type="text"
+                  />
+                </div>
+                <div class="kf_commet_field">
+                  <input
+                    placeholder="Email"
+                    name="author"
+                    formControlName="email"
+                    value=""
+                    data-default="Name*"
+                    size="30"
+                    required=""
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="ch_textarea">
+                  <textarea
+                    formControlName="message"
+                    placeholder="Type here message"
+                    name="comment"
+                  ></textarea>
+                </div>
+              </div>
+              <p class="form_submit">
+                <input
+                  name="submit"
+                  class="default_small_btn btn_2"
+                  value="Send Message"
+                  type="submit"
+                  [disabled]="isSubmitDisabled()"
+                  (click)="onSubmit()"
+                />
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

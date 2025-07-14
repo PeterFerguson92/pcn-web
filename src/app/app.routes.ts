@@ -4,8 +4,10 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ActivityComponent } from './pages/activity/activity.component';
 import { MinistryComponent } from './pages/ministry/ministry.component';
 import { CauseComponent } from './pages/cause/cause.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 export const routes: Routes = [
+  { path: 'contact-us', component: ContactUsComponent },
   { path: 'charity/:code', component: CauseComponent },
   { path: 'ministry/:code', component: MinistryComponent },
   { path: 'activity/:code', component: ActivityComponent },
