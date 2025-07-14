@@ -12,7 +12,7 @@ export class HomeInfoComponent {
   testimonials = [
     {
       image: 'assets/images/A1-logo.jpg',
-      text: 'The word of God will come alive in your spirits as you worship and serve with us. ',
+      text: 'The spirit of the Lord in the hearts of men is something more than gold.',
     },
   ];
 }
