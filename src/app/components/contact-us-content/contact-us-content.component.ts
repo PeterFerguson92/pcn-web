@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { EmailService } from '../../shared/email.service';
+import { NotificationMessageComponent } from '../notification-message/notification-message.component';
+import { SpinnerComponent } from '../spinner/spinner.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-contact-us-content',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, CommonModule, NotificationMessageComponent, SpinnerComponent],
   templateUrl: './contact-us-content.component.html',
   styleUrl: './contact-us-content.component.css',
 })

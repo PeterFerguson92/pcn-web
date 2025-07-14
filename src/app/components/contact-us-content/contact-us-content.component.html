@@ -91,6 +91,12 @@
                   ></textarea>
                 </div>
               </div>
+              <app-notification-message
+                [showText]="showErrorText"
+                [text]="errorText || ''"
+                [color]="'#ff9800'"
+              ></app-notification-message>
+              <app-spinner *ngIf="showSpinner"></app-spinner>
               <p class="form_submit">
                 <input
                   name="submit"
