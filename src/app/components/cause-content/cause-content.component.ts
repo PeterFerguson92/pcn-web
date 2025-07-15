@@ -22,7 +22,7 @@ export class CauseContentComponent implements OnInit {
         if (codeFromRoute) {
           console.log('Code from route:', codeFromRoute);
           this.code = codeFromRoute;
-          this.setCharityDetails()
+          this.setCharityDetails();
         } else {
           console.warn('No code found in route parameters.');
         }
@@ -35,8 +35,7 @@ export class CauseContentComponent implements OnInit {
   }
 
   private setCharityDetails() {
-    switch (this.code)
-    {
+    switch (this.code) {
       case '1':
         this.charityImage = 'assets/images/A1-charity.jpg';
         this.charityName = 'PCN Charity 1';
@@ -62,5 +61,9 @@ export class CauseContentComponent implements OnInit {
           'PCN Charity is a non-profit organization dedicated to making a positive impact in the community through various charitable initiatives. Our mission is to support those in need and promote social welfare.';
         break;
     }
+  }
+
+  donate() {
+    window.location.href = 'https://buy.stripe.com/test_4gMdR984C34Z0EDc982ZO00'; // Replace with your Payment Link
   }
 }
