@@ -5,33 +5,74 @@
         <div class="col-md-9">
           <div class="church_causes_detail">
             <figure>
-              <img src={{charityImage}} alt="" />
+              <img src="{{charityImage}}" alt="" />
             </figure>
             <div class="church_causes_caption">
               <div class="church_causes_cap">
                 <h4 class="blog_title_1">
                   <a href="#">{{charityName}}</a>
                 </h4>
-
-                <p>
-                 {{charityDescription}}
-                </p>
+                <p>{{charityDescription}}</p>
               </div>
-
-
             </div>
           </div>
-          <div class="church_causes_documents">
+
+          <!-- Donation Options -->
+          <div class="donation-options" style="margin-top: 2rem; padding: 1.5rem; background-color: #f2f2f2; border-radius: 5px;">
+            <h4>Choose Your Donation Method</h4>
+            <p>You can donate online using the button below, or give directly via bank transfer using the details provided.</p>
+
+            <!-- Bank Transfer Details -->
+            <div class="bank-transfer-details" style="margin-top: 1rem; background-color: #fff; padding: 1rem; border: 1px solid #ddd; border-radius: 5px;">
+              <h5>United Kingdom Account</h5>
+              <ul style="list-style: none; padding-left: 0; font-size: medium;">
+                <li><strong>Name:</strong> Prince Kwateng Kwaning</li>
+                <li><strong>Account Number:</strong> 52038203</li>
+                <li><strong>Sort Code:</strong> 23-14-70</li>
+                <li><strong>IBAN:</strong> GB31 TRWI 2314 7052 0382 03</li>
+                <li><strong>Swift/BIC:</strong> TRWIGB2LXXX</li>
+              </ul>
+              <hr>
+
+              <h5>Europe (Euro Account)</h5>
+              <ul style="list-style: none; padding-left: 0;font-size: medium;">
+                <li><strong>Name:</strong> Prince Kwateng Kwaning</li>
+                <li><strong>IBAN:</strong> BE31 9050 7445 2355</li>
+                <li><strong>Swift/BIC:</strong> TRWIBEB1XXX</li>
+              </ul>
+              <hr>
+
+              <h5>United States (Dollar Account)</h5>
+              <ul style="list-style: none; padding-left: 0;font-size: medium;">
+                <li><strong>Name:</strong> Prince Kwateng Kwaning</li>
+                <li><strong>Account Number:</strong> 886467198363090</li>
+                <li><strong>Account Type:</strong> Deposit</li>
+                <li><strong>Routing Number (Wire & ACH):</strong> 084009519</li>
+                <li><strong>Swift/BIC:</strong> TRWIUS35XX</li>
+              </ul>
+
+              <p style="margin-top: 1rem;">
+                For receipts or questions, contact us at
+                <a href="mailto:atthepotterstouch@gmail.com">atthepotterstouch&#64;gmail.com</a>.
+              </p>
+
+              <blockquote style="font-style: italic; color: #555;">
+                “Each of you should give what you have decided in your heart to give…” – 2 Corinthians 9:7
+              </blockquote>
+            </div>
+          </div>
+          <!-- End Donation Options -->
+
+          <!-- Donate Button -->
+          <div class="church_causes_documents" style="margin-top: 1.5rem;">
             <form>
-
-             
               <div class="login_registor" (click)="donate()">
-                <a  class="default_btn black-bg_btn">Donate</a>
+                <a class="default_btn black-bg_btn">Donate Online</a>
               </div>
-
-
             </form>
           </div>
+          <!-- End Donate Button -->
+
         </div>
       </div>
     </section>
