@@ -31,7 +31,7 @@ export class HomeCausesComponent {
     },
     {
       image: 'assets/images/A1-charity3.jpg',
-      title: 'Build a Church',
+      title: 'Healthcare for all',
       tagline: 'In God, Strength',
       description:
         'Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi...',
