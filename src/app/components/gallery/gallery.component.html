@@ -1,29 +1,20 @@
 <section class="gallery-section">
   <div class="container">
     <div class="church_heading align_center">
-      <h3>📸 Sunday Fellowship Gallery</h3>
-      <p>Moments of worship, joy, and community from our Sunday services.</p>
+      <p>
+        Explore moments of worship, fellowship, and community life at Potter's
+        Community Network.
+      </p>
     </div>
 
-    <div class="gallery-grid">
-      <div class="gallery-item">
-        <img src="assets/gallery/sunday1.jpg" alt="Worship Session" />
-      </div>
-      <div class="gallery-item">
-        <img src="assets/gallery/sunday2.jpg" alt="Prayer Time" />
-      </div>
-      <div class="gallery-item">
-        <img src="assets/gallery/sunday3.jpg" alt="Message from Pastor" />
-      </div>
-      <div class="gallery-item">
-        <img src="assets/gallery/sunday4.jpg" alt="Fellowship Gathering" />
-      </div>
-      <div class="gallery-item">
-        <img src="assets/gallery/sunday5.jpg" alt="Church Members" />
-      </div>
-      <div class="gallery-item">
-        <img src="assets/gallery/sunday6.jpg" alt="Youth Worship" />
-      </div>
-    </div>
+<div class="gallery-grid">
+  <img
+    *ngFor="let img of images"
+    [src]="img"
+    [alt]="img"
+    class="gallery-img"
+    loading="lazy"
+  />
+</div>
   </div>
 </section>

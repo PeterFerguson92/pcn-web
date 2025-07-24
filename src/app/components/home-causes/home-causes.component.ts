@@ -12,8 +12,8 @@ import { RouterModule } from '@angular/router';
 export class HomeCausesComponent {
   causes = [
     {
-      image: 'assets/images/A1-charity.jpg',
-      title: 'Children Need Your Help',
+      image: 'assets/images/A1-support.jpg',
+      title: 'Support the ministry',
       tagline: 'In God, Hope',
       description:
         'Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros...',

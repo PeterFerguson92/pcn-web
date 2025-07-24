@@ -62,7 +62,6 @@ export class ContactUsContentComponent implements OnInit {
     this.showSpinner = true;
     this.emailService.SendEmail(message).subscribe(
       (data) => {
-        console.log(data);
         this.showSpinner = false;
         this.infoText = 'Request Sent Succesfully';
         this.showInfoText = true;

@@ -19,7 +19,6 @@ export class MinistryContentComponent {
       if (val instanceof NavigationEnd) {
         const codeFromRoute = this.route.snapshot.paramMap.get('code');
         if (codeFromRoute) {
-          console.log('Code from route:', codeFromRoute);
           this.code = codeFromRoute;
         } else {
           console.warn('No code found in route parameters.');

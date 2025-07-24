@@ -20,7 +20,6 @@ export class CauseContentComponent implements OnInit {
       if (val instanceof NavigationEnd) {
         const codeFromRoute = this.route.snapshot.paramMap.get('code');
         if (codeFromRoute) {
-          console.log('Code from route:', codeFromRoute);
           this.code = codeFromRoute;
           this.setCharityDetails();
         } else {
@@ -37,10 +36,10 @@ export class CauseContentComponent implements OnInit {
   private setCharityDetails() {
     switch (this.code) {
       case '1':
-        this.charityImage = 'assets/images/A1-charity.jpg';
-        this.charityName = 'PCN Charity 1';
+        this.charityImage = 'assets/images/A1-support.jpg';
+        this.charityName = 'Support the ministry';
         this.charityDescription =
-          'PCN Charity 1 is dedicated to providing educational resources to underprivileged children in the community. We believe that every child deserves access to quality education and opportunities for a brighter future.';
+          `Your generous gift helps us share the message of hope, faith, and love with people around the world. Every donation directly supports our outreach, discipleship, and community programs. Whether it's a one-time gift or a recurring partnership, your support makes an eternal difference`;
         break;
       case '2':
         this.charityImage = 'assets/images/A1-charity2.jpg';
@@ -64,6 +63,6 @@ export class CauseContentComponent implements OnInit {
   }
 
   donate() {
-    window.location.href = 'https://buy.stripe.com/test_4gMdR984C34Z0EDc982ZO00'; // Replace with your Payment Link
+    window.location.href = 'https://buy.stripe.com/bJecN6fea37kf0JgedgA800'; // Replace with your Payment Link
   }
 }
