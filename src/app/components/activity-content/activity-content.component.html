@@ -1,190 +1,162 @@
 <div class="church_aboutus">
   <div class="container">
-    <div class="church_about_us">
-      <div class="church_heading align_left">
-        <div *ngIf="code === '1'">
-          <h3>Morning Devotion</h3>
-          <p>
-            <strong>Start your day with purpose, peace, and prayer.</strong
-            ><br />
-            Our <strong>Morning Devotion</strong> is a daily time of worship,
-            scripture reading, and reflection designed to help you center your
-            heart on God before the busyness of the day begins.
-          </p>
-          <br /><br />
-          <p>Each session includes:</p>
-          <ul>
-            <li style="font-size: medium">A short worship song or hymn</li>
-            <li style="font-size: medium">
-              A scripture reading with practical insights
-            </li>
-            <li style="font-size: medium">
-              Guided prayer and time for personal reflection
-            </li>
-          </ul>
-          <br />
-          <p>
-            Whether you're joining us at the church or tuning in from home, this
-            sacred morning rhythm offers spiritual renewal and a gentle reminder
-            of God's presence throughout your day.
-          </p>
-          <br /><br />
-          <p>
-            <strong>Time (GHANA):</strong> 4:30 AM – 5:00 AM (Monday to
-            Friday)<br />
-            <strong>Time (UK):</strong> 5:30 AM – 6:00 AM (Monday to Friday)<br />
-            <strong>Time (EU):</strong> 6:30 AM – 7:00 AM (Monday to Friday)<br />
-            <br />
-            <strong>Location: <br /></strong
-            ><a
-              href="https://us02web.zoom.us/j/7278238487?pwd=c2grWmM3dm1iYVZ0NWhyQk1SR1NTdz09"
-              >{{ zoomLink }}</a
-            >
-          </p>
-          <blockquote>
-            “Very early in the morning… Jesus got up, left the house and went
-            off to a solitary place, where he prayed.”<br />
-            — <em>Mark 1:35</em>
-          </blockquote>
+    <div class="church_heading align_left">
+      <!-- Morning Devotion -->
+      <div *ngIf="code === '1'">
+        <h3>Morning Devotion</h3>
+        <p><strong>Start your day with purpose, peace, and prayer.</strong></p>
+        <p>
+          Our <strong>Morning Devotion</strong> is a daily time of worship,
+          scripture reading, and reflection designed to help you center your
+          heart on God before the busyness of the day begins.
+        </p>
+        <p>Each session includes:</p>
+        <ul>
+          <li>A short worship song or hymn</li>
+          <li>A scripture reading with practical insights</li>
+          <li>Guided prayer and time for personal reflection</li>
+        </ul>
+        <p>
+          Whether you're joining us at the church or tuning in from home, this
+          sacred morning rhythm offers spiritual renewal and a gentle reminder
+          of God's presence throughout your day.
+        </p>
+        <p>
+          <strong>Time (GHANA):</strong> 4:30 AM – 5:00 AM (Mon–Fri)<br />
+          <strong>Time (UK):</strong> 5:30 AM – 6:00 AM<br />
+          <strong>Time (EU):</strong> 6:30 AM – 7:00 AM<br /><br />
+          <strong>Location:</strong><br />
+          <a [href]="zoomLink">{{ zoomLink }}</a>
+        </p>
+        <blockquote>
+          “Very early in the morning… Jesus got up, left the house and went off
+          to a solitary place, where he prayed.”<br />
+          — <em>Mark 1:35</em>
+        </blockquote>
+        <div class="image-wrapper">
+          <img
+            src="assets/images/morning-devotion.jpg"
+            alt="Morning Devotion"
+            class="responsive-image"
+          />
         </div>
-        <div *ngIf="code === '2'">
-          <h3>Wednesday Bible Study</h3>
-          <p>
-            Join us every <strong>Wednesday evening</strong> for a powerful time
-            of studying God's Word together. Our
-            <strong>Wednesday Bible Study</strong> is open to everyone seeking
-            to grow deeper in their understanding of Scripture, ask questions,
-            and build community in faith.
-          </p>
-          <br /><br />
-          <p>Each session includes:</p>
-          <ul>
-            <li style="font-size: medium">
-              In-depth teaching on a selected Bible passage or theme
-            </li>
-            <li style="font-size: medium">Group discussion and Q&A</li>
-            <li style="font-size: medium">
-              Time of prayer and spiritual encouragement
-            </li>
-          </ul>
-          <br /><br />
-          <p>
-            Whether you're new to the Bible or have studied it for years, this
-            midweek gathering will challenge and refresh your faith. Come with
-            your Bible, your heart open, and a hunger to grow.
-          </p>
-          <p></p>
-          <br />
-          <p>
-            <strong>Time (GH):</strong> 20:00 – 21:30<br />
-            <strong>Time (UK):</strong> 21:00 – 22:30<br />
-            <strong>Time (EU):</strong> 22:00 – 23:30<br />
-            <br />
-            <strong>Location: <br /></strong
-            ><a
-              href="https://us02web.zoom.us/j/7278238487?pwd=c2grWmM3dm1iYVZ0NWhyQk1SR1NTdz09"
-              >{{ zoomLink }}</a
-            >
-          </p>
-          <blockquote>
-            “Your word is a lamp to my feet and a light to my path.”<br />
-            — <em>Psalm 119:105</em>
-          </blockquote>
+      </div>
+
+      <!-- Wednesday Bible Study -->
+      <div *ngIf="code === '2'">
+        <h3>Wednesday Bible Study</h3>
+        <p>
+          Join us every <strong>Wednesday evening</strong> for a powerful time
+          of studying God's Word together.
+        </p>
+        <p>Each session includes:</p>
+        <ul>
+          <li>In-depth teaching on a selected Bible passage or theme</li>
+          <li>Group discussion and Q&A</li>
+          <li>Time of prayer and spiritual encouragement</li>
+        </ul>
+        <p>
+          Whether you're new to the Bible or have studied it for years, this
+          midweek gathering will challenge and refresh your faith.
+        </p>
+        <p>
+          <strong>Time (GH):</strong> 20:00 – 21:30<br />
+          <strong>Time (UK):</strong> 21:00 – 22:30<br />
+          <strong>Time (EU):</strong> 22:00 – 23:30<br /><br />
+          <strong>Location:</strong><br />
+          <a [href]="zoomLink">{{ zoomLink }}</a>
+        </p>
+        <blockquote>
+          “Your word is a lamp to my feet and a light to my path.”<br />
+          — <em>Psalm 119:105</em>
+        </blockquote>
+        <div class="image-wrapper">
+          <img
+            src="assets/images/bible-study.jpg"
+            alt="Bible Study"
+            class="responsive-image"
+          />
         </div>
-        <div *ngIf="code === '3'">
-          <h3>Saturday Intercession</h3>
-          <p>
-            Join us every <strong>Saturday morning</strong> for a time of
-            powerful prayer and spiritual warfare during our
-            <strong>Intercession Service</strong>. This is a focused gathering
-            where we stand in the gap for our church, families, community, and
-            the nations.
-          </p>
-          <br /><br />
-          <p>We pray for:</p>
-          <ul>
-            <li style="font-size: medium">Revival in our city and beyond</li>
-            <li style="font-size: medium">
-              Growth, healing, and unity in the church
-            </li>
-            <li style="font-size: medium">
-              Personal breakthroughs and spiritual strength
-            </li>
-            <li style="font-size: medium">
-              Specific needs and requests brought forth by the congregation
-            </li>
-          </ul>
-          <br />
-          <p>
-            Whether you're a seasoned intercessor or just learning to pray with
-            purpose, this is a powerful way to align with God’s heart and see
-            lives changed through prayer.
-          </p>
-          <br /><br />
-          <p>
-            <strong>Time (GHANA):</strong> 20:00 – 22:30 <br />
-            <strong>Time (UK):</strong> 21:00 – 23:30 <br />
-            <strong>Time (EU):</strong> 22:00 – 00:30<br />
-            <br />
-            <strong>Location: <br /></strong
-            ><a
-              href="https://us02web.zoom.us/j/7278238487?pwd=c2grWmM3dm1iYVZ0NWhyQk1SR1NTdz09"
-              >{{ zoomLink }}</a
-            >
-          </p>
-          <blockquote>
-            “I have posted watchmen on your walls, Jerusalem; they will never be
-            silent day or night...”<br />
-            — <em>Isaiah 62:6</em>
-          </blockquote>
+      </div>
+
+      <!-- Saturday Intercession -->
+      <div *ngIf="code === '3'">
+        <h3>Saturday Intercession</h3>
+        <p>
+          Join us every <strong>Saturday morning</strong> for a time of powerful
+          prayer and spiritual warfare during our
+          <strong>Intercession Service</strong>.
+        </p>
+        <p>We pray for:</p>
+        <ul>
+          <li>Revival in our city and beyond</li>
+          <li>Growth, healing, and unity in the church</li>
+          <li>Personal breakthroughs and spiritual strength</li>
+          <li>Specific needs and requests from the congregation</li>
+        </ul>
+        <p>
+          Whether you're a seasoned intercessor or just learning to pray with
+          purpose, this is a powerful way to align with God’s heart and see
+          lives changed through prayer.
+        </p>
+        <p>
+          <strong>Time (GHANA):</strong> 20:00 – 22:30<br />
+          <strong>Time (UK):</strong> 21:00 – 23:30<br />
+          <strong>Time (EU):</strong> 22:00 – 00:30<br /><br />
+          <strong>Location:</strong><br />
+          <a [href]="zoomLink">{{ zoomLink }}</a>
+        </p>
+        <blockquote>
+          “I have posted watchmen on your walls, Jerusalem; they will never be
+          silent day or night...”<br />
+          — <em>Isaiah 62:6</em>
+        </blockquote>
+        <div class="image-wrapper">
+          <img
+            src="assets/images/intercession.jpg"
+            alt="Intercession"
+            class="responsive-image"
+          />
         </div>
-        <div *ngIf="code === '4'">
-          <h3>Sunday Fellowship</h3>
-          <p>
-            You're invited to our vibrant and spirit-filled
-            <strong>Sunday Fellowship</strong> — a time of worship, teaching,
-            community, and divine encounter. Every Sunday, we gather as a family
-            to glorify God and grow in faith together.
-          </p>
-          <br />
-          <br />
-          <p>Each fellowship service features:</p>
-          <ul>
-            <li style="font-size: medium">
-              Uplifting praise and heartfelt worship
-            </li>
-            <li style="font-size: medium">
-              Inspiring and practical Bible teaching
-            </li>
-            <li style="font-size: medium">Warm fellowship and encouragement</li>
-          </ul>
-          <br />
-          <br />
-          <p>
-            Whether you’re visiting for the first time or a longtime member,
-            you’ll find a welcoming environment and a place to belong. Come as
-            you are and experience the love of Christ among us.
-          </p>
-          <br />
-          <br />
-          <p>
-            <strong>Time (GHANA):</strong> 20:00 – 21:30<br />
-            <strong>Time (UK):</strong> 21:00 – 22:30 <br />
-            <strong>Time (EU):</strong> 22:00 – 23:30 <br />
-            <br />
-            <strong>Location: <br /></strong
-            ><a
-              href="https://us02web.zoom.us/j/7278238487?pwd=c2grWmM3dm1iYVZ0NWhyQk1SR1NTdz09"
-              >{{ zoomLink }}</a
-            >
-          </p>
-          <blockquote>
-            “Let us not give up meeting together, as some are in the habit of
-            doing, but encouraging one another...”<br />
-            — <em>Hebrews 10:25</em>
-          </blockquote>
+      </div>
+
+      <!-- Sunday Fellowship -->
+      <div *ngIf="code === '4'">
+        <h3>Sunday Fellowship</h3>
+        <p>
+          You're invited to our vibrant and spirit-filled
+          <strong>Sunday Fellowship</strong> — a time of worship, teaching,
+          community, and divine encounter.
+        </p>
+        <p>Each fellowship service features:</p>
+        <ul>
+          <li>Uplifting praise and heartfelt worship</li>
+          <li>Inspiring and practical Bible teaching</li>
+          <li>Warm fellowship and encouragement</li>
+        </ul>
+        <p>
+          Whether you’re visiting for the first time or a longtime member,
+          you’ll find a welcoming environment and a place to belong.
+        </p>
+        <p>
+          <strong>Time (GHANA):</strong> 20:00 – 21:30<br />
+          <strong>Time (UK):</strong> 21:00 – 22:30<br />
+          <strong>Time (EU):</strong> 22:00 – 23:30<br /><br />
+          <strong>Location:</strong><br />
+          <a [href]="zoomLink">{{ zoomLink }}</a>
+        </p>
+        <blockquote>
+          “Let us not give up meeting together, as some are in the habit of
+          doing, but encouraging one another...”<br />
+          — <em>Hebrews 10:25</em>
+        </blockquote>
+        <div class="image-wrapper">
+          <img
+            src="assets/images/sunday-fellowship.jpg"
+            alt="Sunday Fellowship"
+            class="responsive-image"
+          />
         </div>
-        <br /><br />
       </div>
     </div>
   </div>

@@ -1,1 +1,13 @@
 
+.image-wrapper {
+  max-width: 600px; /* Limits image size on large screens */
+  width: 100%;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain; /* or 'cover' if cropping is preferred */
+}
